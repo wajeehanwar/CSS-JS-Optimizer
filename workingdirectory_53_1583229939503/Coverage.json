@@ -1,0 +1,27 @@
+[{
+    "url": "http://wajeehanwar.github.io/test.js",
+    "ranges": [{
+        "start": 0,
+        "end": 74
+      },
+      {
+        "start": 196,
+        "end": 390
+      }
+    ],
+    "text": "$(document).ready(function () {\n  \"use strict\";\n\n  $(\".determinate\").each(function () {\n    var width = $(this).text();\n    $(this)\n      .css(\"width\", width)\n      .empty()\n      .append(\"\");\n  });\n\n  $(\".tooltipped\").tooltip({\n    delay: 50\n  });\n\n  var wow = new WOW({\n    mobile: false\n  });\n  wow.init();\n  $(\".sa-view-project-detail\").on(\"click\");\n  $(\"#back-button\").on(\"click\");\n});"
+  }, {
+    "url": "test2.js",
+    "ranges": [{
+        "start": 50,
+        "end": 74
+      },
+      {
+        "start": 200,
+        "end": 250
+      }
+    ],
+    "text": "$(document).ready(function () {\n  \"use strict\";\n\n  $(\".determinate\").each(function () {\n    var width = $(this).text();\n    $(this)\n      .css(\"width\", width)\n      .empty()\n      .append(\"\");\n  });\n\n  $(\".tooltipped\").tooltip({\n    delay: 50\n  });\n\n  var wow = new WOW({\n    mobile: false\n  });\n  wow.init();\n  $(\".sa-view-project-detail\").on(\"click\");\n  $(\"#back-button\").on(\"click\");\n});"
+  }
+
+]

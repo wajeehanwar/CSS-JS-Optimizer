@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS|CSS Coverage Trimmer</title>
+</head>
+
+<body>
+    <div>
+        <h1>JS|CSS Coverage Trimmer</h1>
+    </div>
+    <div>
+        Find unused CSS and JS code with the new Coverage tab. When you load or
+        run a page, the tab tells you how much code was used, versus how much was
+        loaded. You can reduce the size of your pages by only shipping the code
+        that you need.
+    </div>
+    <div>
+        <form method="POST" action="http://localhost:5000/options" enctype="multipart/form-data">
+            <label for="coveragemap">Select coverage map file:</label>
+            <input type="file" id="coveragemap" name="coveragemap" /><br /><br />
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
